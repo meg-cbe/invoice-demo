@@ -12,7 +12,7 @@ function Headsection(props) {
                             </div>
                             <div>
                                 <div className="taxx">
-                                    <p className="tax">TAX INVOICE</p>
+                                    <p className="tax" >TAX INVOICE </p>
                                 </div>
                                 <div>
                                     <span className="header"> A ONE INDUSTRIES </span> <br/>

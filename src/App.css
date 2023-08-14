@@ -249,6 +249,11 @@ form input{
 }
 .no{
   display: flex;
+
+}
+.no1{
+  display: flex;
+  padding: 20px 0px 0px 0px;
 }
 .ebill{
   padding-left: 25px;
@@ -264,12 +269,19 @@ form{
 
 }
 .sbtn{
-  padding-top: 20px;
+  background: blueviolet;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  padding: 8px 10px;
 }
 .btn1{
 background: blueviolet;
   color: white;
   border-radius: 25px;
+  border: none;
+  outline: none;
   padding: 8px 10px;
 
 }
@@ -360,4 +372,6 @@ padding-top: 15px;
       .btn{
         padding: 20px 0px 0px 0px;
       }
-     
+     .submitbtn{
+      padding: 20px 0px 0px 50px;
+     }
