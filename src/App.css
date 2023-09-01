@@ -1,110 +1,167 @@
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
 body{
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+input{
+  border: none;
+  outline: none;
+  background: rgb(220, 220, 220);
+  padding: 10px;
+
+}
 .main{
+  position: relative;
     padding: 30px 30px;
     border: 1px solid;
     font-weight: bolder;
 }
 .section{
-    border: 1px solid;
+  
     font-weight: bolder;
     font-size: 15px;
 
 }
-.gst{
-    padding: 10px 0px 0px 10px;
-    margin: 0;
+.mainn{
+  border: none;
+  outline: none;
+  background: rgb(220, 220, 220);
+  padding: 10px;
+}
+.sec-3{
+     margin: 10px 0px 20px 0px;
 }
 .sec-1{
-  
+  padding: 8px;
+    border: 1px solid;
     display: flex;
     justify-content: space-between;
 }
+
+.ii2{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ii3{
+  width: 15%;
+  text-align: end;
+}
 .fonts{
-    font-family: 'Edu SA Beginner', cursive;
-    padding: 10px 10px 0px 0px;
-    margin: 0;
+  font-size: 10px;
+  margin: 0;
 }
 .tax{
-    margin-right: 170px;
-    padding: 25px 0px 0px 7px;
+  margin: 0;
+  font-size: 20px;
     border-bottom: 2px solid;
 }
 body {
     background: rgb(204,204,204); 
   }
-  page {
+  .page {
+    margin-right: 100px;
     background: white;
     display: block;
     margin: 0 auto;
     margin-bottom: 0.5cm;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
   }
-  page[size="A4"] {  
+  .page[size="A4"] {  
     width: 21cm;
     height: 29.7cm; 
   }
   .image{
-    padding: 10px 0px 0px 10px;
-    width: 107px;
+    width: 100px;
     height: 100px;
   }
-  .taxx{
-    padding: 0px 41px 0px 100px;
-   
-  }
+.taxx{
+  
+           padding: 10px 0px;
+    display: inline;
+}
+.gp{
+      margin: 10px 0px;
+  display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+
+}
+  
   .header{
+    margin: 10px 0px 10px 0px;
+    text-align: center;
     font-size: 32px;
 
-    padding-left: 25px;
 }
   .para1{
     margin: 0;
-    padding-left: 0px;
-    font-size: 18px;
-  }
-  .pincode{
-    padding-left: 28px;
-
-  }
-  .pan{
-    padding-left: 180px;
+    text-align: center;
     font-size: 17px;
   }
+  .pincode{
+   margin: 5px 0px 0px 0px;
+    text-align: center;
+
+  }
+
   .para1 span{
     padding-left: 33px;
     font-size: 17px;
   }
   .tel{
-    margin: 0;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+
     font-style: italic;
 
   }
+  .imm{
+    width: 15%;
+    display: flex;
+    align-items: center;
+
+  }
   .section2{
+
+    border: 1px solid;
+
     display: flex;
     justify-content: space-between;
   }
   .sec-2{
-    margin-top: 15px;
-    width: 100%;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
+  
+       padding: 0px 16px;
+    margin: 15px 0;
+
+   
+  }
+  .section22{
+    
+    display: flex;
+    justify-content: space-between;
+
   }
   .div-1{
+       border-right: 1px solid;
     width: 50%;
-    border-right: 1px solid;
-
+    padding: 10px;
+  
+  }
+  .bill{
+    
+    margin: 0;
+   
   }
   #para-2{
     margin: 0;
-    padding: 10px;
-    font-size: 14px;
+ 
   }
   .div-2{
+    padding: 10px;
     width: 50%;
   }
   .bill{
@@ -112,18 +169,48 @@ body {
     font-size: initial;
 
   }
-
+.tt{
+  border: 1px solid;
+    border-collapse: collapse;
+  position: absolute;
+  bottom: 290px;
+  font-size: 13px;
+}
   table, th, td {
 
     border-collapse: collapse;
   }
+  .table1,.th1{
+   
+    border-collapse: collapse;
+  }
+  .row1 td{
+
   
+    border-collapse: collapse;
+  }
+  .rowtable{
+        padding: 15PX 0PX 0PX 0PX;
+  }
 .row3{
-  height: 180px;
+ 
+   
+  height: 260px;
 
 }
-
-
+.ar{
+  font-size: 20px;
+  padding-left: 20px;
+}
+.arr{
+  display: flex;
+}
+.arrr{
+  padding-left: 10px;
+}
+.row1{
+  height: 30px;
+}
 
 tbody{
 
@@ -132,21 +219,35 @@ tbody{
 
 }
 .column-bordered-table thead th {
+  padding: 5px;
+  
   border-left: 1px solid;
   border-right: 1px solid ;
 }
 
 .column-bordered-table td {
+
+
+  padding: 5px;
   border-left: 1px solid ;
   border-right: 1px solid ;
 }
 
+.thh,.foo{
+  text-align: left;
+ 
+}
+
 .column-bordered-table{
+  border: 1px solid;
+  border-collapse: collapse;
+  height: 400px;
+  width: 100%;
   font-size: 13px;
 }
 thead tr{
-  border-top: 1px solid;
-
+ 
+  border-bottom: 1px solid;
 }
 .total{
   display: flex;
@@ -156,6 +257,9 @@ thead tr{
   padding: 5px 20px 0px 15px;
     border: 1px solid;
     font-size: 13px;
+}
+#data2{
+  width: 155px;
 }
 .grand{
     padding: 5px 0px 0px 195px;
@@ -167,20 +271,22 @@ thead tr{
 .span2{
   font-size: 16px;
   font-weight: bold;
-}.hsn{
+}
+.hsn{
   border-bottom: 1px solid;
-  padding-left: 10px;
+  padding: 10px 0px 10px 0px;
 }
 .baa{
+  margin: 30px 0px 0px 0px;
   display: flex;
   border-bottom: 1px solid;
 }
 .bank{
-  padding-left: 10px;
+  padding: 10px;
 }
 .ifsc{
   
-  padding-left: 40px;
+     padding: 10px 0px 0px 40px; 
 
 }
 .lastsec{
@@ -189,8 +295,10 @@ thead tr{
   justify-content: space-between;
 }
 .lastsec1{
+  
+  border-right: 1px solid;
   font-size: 12px;
-  width: 40%;
+  width: 50%;
 }
 .lastsec1 span{
   font-size: 13px;
@@ -230,11 +338,12 @@ thead tr{
 
 }
 .indate2{
-  padding-left: 25px;
+  padding-left: 45px;
 }
 .section-1{
   width: 40%;
   background: #fefeff;
+  padding: 45px;
 } 
 form input{
   border: none;
@@ -261,14 +370,23 @@ form input{
 .add{
   padding: 15px 0px 0px 0px;
 }
-form{
-  padding: 40px;
+
+.mg{
+  display: flex;
+  padding-top: 15px;
+  align-items: flex-end;
 }
+
 #shipping{
-  width: 370px;
+  width: 390px;  
+}
+#shipping1{
+  width: 390px;
+  margin-bottom: 10px;
 
 }
 .sbtn{
+  margin: auto 0;
   background: blueviolet;
   color: white;
   border-radius: 25px;
@@ -276,6 +394,21 @@ form{
   outline: none;
   padding: 8px 10px;
 }
+.uc{
+  display: flex;
+  padding: 18px;
+}
+.sbtn1{
+  margin: auto 0;
+  background: rgb(210, 40, 17);
+  color: white;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  padding: 8px 10px;
+}
+
+
 .btn1{
 background: blueviolet;
   color: white;
@@ -284,6 +417,15 @@ background: blueviolet;
   outline: none;
   padding: 8px 10px;
 
+}
+
+
+.details {
+  display: none;
+}
+
+.details.visible {
+  display: block;
 }
 #btn1:hover{
   background-color: black ;
@@ -294,12 +436,12 @@ background: blueviolet;
 }
 .qty input{
   
-  width: 80px;
+  width: 100px;
 
 }
 .price{
   
-  padding-left: 70px;
+  padding-left: 45px;
 
 }
 .des,.qty{
@@ -312,20 +454,22 @@ background: blueviolet;
 }
 .citydiv{
   
-  padding-left: 28px;
+  padding-left: 45px;
 
 }
 .divgst{
   
-  padding: 10px 0px 0px 0px;
+  padding-left: 45px;
 
+
+}
+.gst,.pan{
+  margin: 4px;
 }
 .tab{
   padding-top: 25px;
 }
-#hssn{
-  width: 110px;
-}
+
 .bale{
   padding-left: 40px;
 }
@@ -372,6 +516,93 @@ padding-top: 15px;
       .btn{
         padding: 20px 0px 0px 0px;
       }
-     .submitbtn{
-      padding: 20px 0px 0px 50px;
-     }
+     
+    
+    #total {
+      padding: 5px;
+      text-align:left;
+   }
+   .lasbb .bb{
+    border-left: none;
+    border-bottom: none;
+   }
+   .bb1{
+    border: 1px solid;
+    border-right: none;
+   }
+   .bb2{
+    padding: 5px 0px 5px 4px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+  
+   }
+   .bb5{
+  
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+   }
+   .bott{
+    border-bottom: 1px solid;
+   }
+   /* .hsn{
+   
+    position: absolute;
+    bottom: 200px;
+
+   } */
+   .aa{
+   
+    display: flex;
+   }
+   .submitbtn{
+    padding: 25px 0px 0px 80px;
+  
+   }
+   input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#table1 {
+ 
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table1 td, #table1 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+#table1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: gray;
+  color: white;
+}
+
+#tr{
+   
+ 
+   
+     border: 2px solid #000;
+    
+
+} 
+.flex{
+  display: flex;
+}
+.hss{
+  padding-left: 45px;
+}
+#sel{
+  border: none;
+  outline: none;
+  background: rgb(220, 220, 220);
+  padding: 10px;
+  width: 185px;
+}

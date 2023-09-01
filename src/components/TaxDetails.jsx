@@ -5,26 +5,24 @@ function TaxDetails(props) {
         <div className="sec-3">
         <div className="section2">
             <div className="div-1">
-                <p>
-                    <span className="bill"> Billed to : </span> <br/>
+                <p className='bill'>
+                    <span className="bill"> Billed to : {props.aname}</span> <br/>
                     <span  id="para-3"> {props.address1}<br/>
-                    {props.address2} <br/>
-                        CLOTH MERCHANT <br/> </span>
-                    BOOKING - <span id="city1">COIMBATORE (641001) </span> <br/>
-                    MOBILE NO. - <span id="mobileno1"> {props.mobileno}</span> <br/>
-                    GSTIN / UIN &emsp; &ensp;: &ensp;<span id="gst1"> {props.gstno}</span><br/>
+                    {props.address2} {props.pincode}<br/>
+                       </span> 
+                    MOBILE NO <span id="mobileno1"> :{props.mobileno}</span> <br />
+                    GST NO &emsp; &ensp;: &ensp;<span id="gst1"> {props.gstno}</span>
                 </p>
-
             </div>
             <div className="div-2">
-                <p>
-                    <span className="bill"> Shipped to : </span> <br/>
+                <p className='bill'>
+                    <span className="bill"> Shipped to : {props.aname} </span> <br/>
                     <span id="para-4"> {props.address1} <br/>
-                        353 , SUKRAWARPET<br/>
-                        {props.address2}<br/> </span>
-                    BOOKING - <span id="city2">COIMBATORE &nbsp;(641001) </span><br/>
-                    MOBILE NO. - <span id="mobileno2"> {props.mobileno}</span> <br/>
-                    GSTIN / UIN &emsp; &ensp;: &ensp;<span id="gst2">{props.gstno}</span><br/>
+                       
+                        {props.address2} {props.pincode}<br/> </span>
+                 
+                    MOBILE NO  <span id="mobileno2">: {props.mobileno}</span> <br/>
+                    GST NO&emsp; &ensp;: &ensp;<span id="gst2">  {props.gstno}</span><br/>
                 </p>
 
             </div>
